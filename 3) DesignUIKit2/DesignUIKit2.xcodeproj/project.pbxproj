@@ -21,6 +21,7 @@
 		F810B02928E1DDFE00DBDDB4 /* LoggedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810B02828E1DDFE00DBDDB4 /* LoggedViewController.swift */; };
 		F810B02B28E1DE2E00DBDDB4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810B02A28E1DE2E00DBDDB4 /* RegisterViewController.swift */; };
 		F810B02D28E1E2C900DBDDB4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810B02C28E1E2C900DBDDB4 /* ThirdViewController.swift */; };
+		F8D6D63328E7181200C92CB7 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D6D63228E7181200C92CB7 /* BookCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		F810B02828E1DDFE00DBDDB4 /* LoggedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedViewController.swift; sourceTree = "<group>"; };
 		F810B02A28E1DE2E00DBDDB4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F810B02C28E1E2C900DBDDB4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		F8D6D63228E7181200C92CB7 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				F810AFF828E1D59A00DBDDB4 /* AppDelegate.swift */,
 				F810AFFA28E1D59A00DBDDB4 /* SceneDelegate.swift */,
+				F8D6D63228E7181200C92CB7 /* BookCollectionViewCell.swift */,
 				F810B02828E1DDFE00DBDDB4 /* LoggedViewController.swift */,
 				F810B02A28E1DE2E00DBDDB4 /* RegisterViewController.swift */,
 				F8045CF528E477A70076C555 /* Contact.swift */,
@@ -276,6 +279,7 @@
 				F810AFFD28E1D59A00DBDDB4 /* ViewController.swift in Sources */,
 				F810B02B28E1DE2E00DBDDB4 /* RegisterViewController.swift in Sources */,
 				F810AFF928E1D59A00DBDDB4 /* AppDelegate.swift in Sources */,
+				F8D6D63328E7181200C92CB7 /* BookCollectionViewCell.swift in Sources */,
 				F810B02928E1DDFE00DBDDB4 /* LoggedViewController.swift in Sources */,
 				F8045CF828E485DE0076C555 /* FourthViewController.swift in Sources */,
 				F810B02D28E1E2C900DBDDB4 /* ThirdViewController.swift in Sources */,

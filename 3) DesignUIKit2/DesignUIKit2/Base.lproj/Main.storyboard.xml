@@ -204,7 +204,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bAu-aR-mjr" userLabel="Item">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Item" id="bAu-aR-mjr" userLabel="Item" customClass="BookCollectionViewCell" customModule="DesignUIKit2" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="187" height="229"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9Ga-eU-q7e">
@@ -218,8 +218,15 @@
                                             </subviews>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="187" height="229"/>
+                                        <connections>
+                                            <outlet property="bookImageView" destination="ZCd-QF-cib" id="XLA-yx-PZm"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="ocU-JJ-5ex" id="rRA-Kg-9H1"/>
+                                    <outlet property="delegate" destination="ocU-JJ-5ex" id="8VY-IA-Kts"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iYG-ac-pbw"/>
@@ -232,6 +239,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wbA-xl-atB"/>
+                    <connections>
+                        <outlet property="BookCollection" destination="eQX-qY-FAZ" id="Kgh-et-T60"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gz0-bY-jFI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
