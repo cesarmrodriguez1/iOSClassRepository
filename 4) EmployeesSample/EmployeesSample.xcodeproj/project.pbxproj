@@ -19,6 +19,8 @@
 		F82ACCEF28EDB5300090429D /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F82ACCEE28EDB5300090429D /* FirebaseDatabaseSwift */; };
 		F82ACCF128EDBA790090429D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F82ACCF028EDBA790090429D /* GoogleService-Info.plist */; };
 		F82ACCF328EDBAC50090429D /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82ACCF228EDBAC50090429D /* Employee.swift */; };
+		F8A07E1928F4448300BC09A7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A07E1828F4448300BC09A7 /* LoginViewController.swift */; };
+		F8A07E1B28F4487100BC09A7 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A07E1A28F4487100BC09A7 /* FirebaseAuthManager.swift */; };
 		F8E46C9B28F050BC00A63998 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E46C9A28F050BC00A63998 /* RegisterViewController.swift */; };
 		F8E46C9D28F05AB600A63998 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E46C9C28F05AB600A63998 /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +36,8 @@
 		F82ACCE128EDB2230090429D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F82ACCF028EDBA790090429D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F82ACCF228EDBAC50090429D /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		F8A07E1828F4448300BC09A7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F8A07E1A28F4487100BC09A7 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
 		F8E46C9A28F050BC00A63998 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F8E46C9C28F05AB600A63998 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +82,8 @@
 				F82ACCF228EDBAC50090429D /* Employee.swift */,
 				F8E46C9A28F050BC00A63998 /* RegisterViewController.swift */,
 				F8E46C9C28F05AB600A63998 /* UpdateViewController.swift */,
+				F8A07E1828F4448300BC09A7 /* LoginViewController.swift */,
+				F8A07E1A28F4487100BC09A7 /* FirebaseAuthManager.swift */,
 				F82ACCD928EDB2220090429D /* Main.storyboard */,
 				F82ACCDC28EDB2230090429D /* Assets.xcassets */,
 				F82ACCDE28EDB2230090429D /* LaunchScreen.storyboard */,
@@ -168,7 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A07E1928F4448300BC09A7 /* LoginViewController.swift in Sources */,
 				F82ACCD828EDB2220090429D /* ViewController.swift in Sources */,
+				F8A07E1B28F4487100BC09A7 /* FirebaseAuthManager.swift in Sources */,
 				F8E46C9B28F050BC00A63998 /* RegisterViewController.swift in Sources */,
 				F82ACCF328EDBAC50090429D /* Employee.swift in Sources */,
 				F82ACCD428EDB2220090429D /* AppDelegate.swift in Sources */,
